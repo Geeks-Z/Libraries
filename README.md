@@ -8,7 +8,8 @@
 
 ### 组织结构
 
-cloud-alibaba-mybatis-plus：Spring Cloud Alibaba 集成 Mybatis-Plus
+spring-boot-mybatis-plus：Spring Boot 集成 Mybatis-Plus
+
 
 
 
