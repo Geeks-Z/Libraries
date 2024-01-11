@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: file-upload
+  cloud:
+    nacos:
+      server-addr: 47.92.253.157:8848
+      discovery:
+        namespace: ${spring.profiles.active}
+        group: module
+      config:
+        namespace: ${spring.profiles.active}
+        group: module
+        file-extension: yaml
+
+  #profiles默认为dev
+  profiles:
+    active: dev
